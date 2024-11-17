@@ -1,0 +1,449 @@
+{
+  "serviceDDL": [
+    {
+      "value": 4,
+      "label": "Company Formation"
+    },
+    {
+      "value": 5,
+      "label": "Society Registration"
+    },
+    {
+      "value": 6,
+      "label": "Partnership Registration"
+    },
+    {
+      "value": 7,
+      "label": "RJSC Return Filling"
+    },
+    {
+      "value": 8,
+      "label": "Loan Consultancy"
+    },
+    {
+      "value": 9,
+      "label": "Import License (IRC)"
+    },
+    {
+      "value": 10,
+      "label": "Export License (ERC)"
+    },
+    {
+      "value": 11,
+      "label": "BSTI Registration"
+    },
+    {
+      "value": 12,
+      "label": "Trade License"
+    },
+    {
+      "value": 13,
+      "label": "Individual TAX"
+    },
+    {
+      "value": 14,
+      "label": "Corporate TAX"
+    },
+    {
+      "value": 15,
+      "label": "Value Added TAX (VAT)"
+    },
+    {
+      "value": 16,
+      "label": "TIN Registration"
+    },
+    {
+      "value": 17,
+      "label": "BIN Registration"
+    },
+    {
+      "value": 18,
+      "label": "Trademark"
+    },
+    {
+      "value": 19,
+      "label": "Copyright"
+    },
+    {
+      "value": 20,
+      "label": "Patent"
+    },
+    {
+      "value": 21,
+      "label": "Industrial Design"
+    },
+    {
+      "value": 22,
+      "label": "IPR Enforcement"
+    },
+    {
+      "value": 23,
+      "label": "BTCL Domain Registration"
+    },
+    {
+      "value": 24,
+      "label": "Foreign Company Formation"
+    },
+    {
+      "value": 25,
+      "label": "Foreign Direct Investment"
+    },
+    {
+      "value": 26,
+      "label": "BIDA Permission"
+    },
+    {
+      "value": 27,
+      "label": "Work Permit VISA"
+    },
+    {
+      "value": 28,
+      "label": "Foreign Delegates"
+    },
+    {
+      "value": 29,
+      "label": "Account Service"
+    },
+    {
+      "value": 30,
+      "label": "Book Keeping Services"
+    },
+    {
+      "value": 31,
+      "label": "Small Business"
+    }
+  ],
+  "services": [
+    {
+      "id": 4,
+      "serviceName": "Company Formation",
+      "requiredDocuments": [
+        "Certificate of Incorporation",
+        "Memorandum of Association",
+        "Shareholder Information"
+      ],
+      "timePeriod": "3-5",
+      "consultancyFee": "10000",
+      "isNeedAuthorizedCapital": true,
+      "governmentFee": "20000"
+    },
+    {
+      "id": 5,
+      "serviceName": "Society Registration",
+      "requiredDocuments": [
+        "Member List",
+        "Society Constitution",
+        "Address Proof"
+      ],
+      "timePeriod": "5-7",
+      "consultancyFee": "8000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": "5000"
+    },
+    {
+      "id": 6,
+      "serviceName": "Partnership Registration",
+      "requiredDocuments": [
+        "Partnership Agreement",
+        "ID Proof",
+        "Address Proof"
+      ],
+      "timePeriod": "2-4",
+      "consultancyFee": "6000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": "3000"
+    },
+    {
+      "id": 7,
+      "serviceName": "RJSC Return Filling",
+      "requiredDocuments": [
+        "Annual Return Forms",
+        "Financial Statements",
+        "Audit Reports"
+      ],
+      "timePeriod": "7-10",
+      "consultancyFee": "7000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": "1500"
+    },
+    {
+      "id": 8,
+      "serviceName": "Loan Consultancy",
+      "requiredDocuments": [
+        "Business Plan",
+        "Bank Statements",
+        "Collateral Documents"
+      ],
+      "timePeriod": "10-15",
+      "consultancyFee": "12000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": "80000"
+    },
+    {
+      "id": 9,
+      "serviceName": "Import License (IRC)",
+      "requiredDocuments": [
+        "TIN Certificate",
+        "Trade License",
+        "Bank Solvency Certificate"
+      ],
+      "timePeriod": "3-5",
+      "consultancyFee": "15000",
+      "isNeedAuthorizedCapital": true,
+      "governmentFee": "10000"
+    },
+    {
+      "id": 10,
+      "serviceName": "Export License (ERC)",
+      "requiredDocuments": [
+        "TIN Certificate",
+        "Trade License",
+        "Export Agreement"
+      ],
+      "timePeriod": "3-5",
+      "consultancyFee": "15000",
+      "isNeedAuthorizedCapital": true,
+      "governmentFee": "8000"
+    },
+    {
+      "id": 11,
+      "serviceName": "BSTI Registration",
+      "requiredDocuments": ["Test Reports", "Product Samples", "Trade License"],
+      "timePeriod": "15-20",
+      "consultancyFee": "25000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": "20000"
+    },
+    {
+      "id": 12,
+      "serviceName": "Trade License",
+      "requiredDocuments": [
+        "Application Form",
+        "Owner's ID",
+        "Rental Agreement"
+      ],
+      "timePeriod": "3-7",
+      "consultancyFee": "5000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": "1000"
+    },
+    {
+      "id": 13,
+      "serviceName": "Individual TAX",
+      "requiredDocuments": ["Tax Return Forms", "Income Proof", "ID Proof"],
+      "timePeriod": "2-5",
+      "consultancyFee": "4000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": ""
+    },
+    {
+      "id": 14,
+      "serviceName": "Corporate TAX",
+      "requiredDocuments": [
+        "Tax Return Forms",
+        "Financial Statements",
+        "Business Proof"
+      ],
+      "timePeriod": "5-10",
+      "consultancyFee": "7000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": ""
+    },
+    {
+      "id": 15,
+      "serviceName": "Value Added TAX (VAT)",
+      "requiredDocuments": [
+        "TIN Certificate",
+        "Business Registration",
+        "Financial Statements"
+      ],
+      "timePeriod": "3-5",
+      "consultancyFee": "8000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": "2000"
+    },
+    {
+      "id": 16,
+      "serviceName": "TIN Registration",
+      "requiredDocuments": [
+        "ID Proof",
+        "Address Proof",
+        "Passport Size Photos"
+      ],
+      "timePeriod": "1-2",
+      "consultancyFee": "2000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": ""
+    },
+    {
+      "id": 17,
+      "serviceName": "BIN Registration",
+      "requiredDocuments": [
+        "Business Proof",
+        "Trade License",
+        "TIN Certificate"
+      ],
+      "timePeriod": "3-5",
+      "consultancyFee": "5000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": "3000"
+    },
+    {
+      "id": 18,
+      "serviceName": "Trademark",
+      "requiredDocuments": [
+        "Trademark Application",
+        "Business Proof",
+        "Sample Logos"
+      ],
+      "timePeriod": "30-45",
+      "consultancyFee": "20000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": "6000"
+    },
+    {
+      "id": 19,
+      "serviceName": "Copyright",
+      "requiredDocuments": ["Application Form", "Work Proof", "ID Proof"],
+      "timePeriod": "20-30",
+      "consultancyFee": "15000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": "5000"
+    },
+    {
+      "id": 20,
+      "serviceName": "Patent",
+      "requiredDocuments": [
+        "Patent Specification",
+        "Drawings",
+        "Inventor's Proof"
+      ],
+      "timePeriod": "180-365",
+      "consultancyFee": "50000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": "20000"
+    },
+    {
+      "id": 21,
+      "serviceName": "Industrial Design",
+      "requiredDocuments": [
+        "Design Drawings",
+        "Application Form",
+        "Owner's Proof"
+      ],
+      "timePeriod": "60-90",
+      "consultancyFee": "30000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": "10000"
+    },
+    {
+      "id": 22,
+      "serviceName": "IPR Enforcement",
+      "requiredDocuments": [
+        "Legal Documents",
+        "Trademark Registration",
+        "Proof of Infringement"
+      ],
+      "timePeriod": "15-30",
+      "consultancyFee": "25000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": ""
+    },
+    {
+      "id": 23,
+      "serviceName": "BTCL Domain Registration",
+      "requiredDocuments": [
+        "Domain Request Letter",
+        "Business Proof",
+        "ID Proof"
+      ],
+      "timePeriod": "3-7",
+      "consultancyFee": "3000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": "1500"
+    },
+    {
+      "id": 24,
+      "serviceName": "Foreign Company Formation",
+      "requiredDocuments": [
+        "Incorporation Certificate",
+        "Board Resolution",
+        "Authorized Representative"
+      ],
+      "timePeriod": "30-60",
+      "consultancyFee": "50000",
+      "isNeedAuthorizedCapital": true,
+      "governmentFee": "30000"
+    },
+    {
+      "id": 25,
+      "serviceName": "Foreign Direct Investment",
+      "requiredDocuments": [
+        "Investment Agreement",
+        "Bank Proof",
+        "Government Approval"
+      ],
+      "timePeriod": "15-30",
+      "consultancyFee": "60000",
+      "isNeedAuthorizedCapital": true,
+      "governmentFee": "50000"
+    },
+    {
+      "id": 26,
+      "serviceName": "BIDA Permission",
+      "requiredDocuments": [
+        "Application Form",
+        "Business Proof",
+        "Foreign Representative Details"
+      ],
+      "timePeriod": "15-20",
+      "consultancyFee": "20000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": "10000"
+    },
+    {
+      "id": 27,
+      "serviceName": "Work Permit VISA",
+      "requiredDocuments": ["Application Form", "Job Offer Letter", "ID Proof"],
+      "timePeriod": "7-15",
+      "consultancyFee": "15000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": "5000"
+    },
+    {
+      "id": 28,
+      "serviceName": "Foreign Delegates",
+      "requiredDocuments": [
+        "Invitation Letter",
+        "ID Proof",
+        "Travel Itinerary"
+      ],
+      "timePeriod": "3-5",
+      "consultancyFee": "20000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": ""
+    },
+    {
+      "id": 29,
+      "serviceName": "Account Service",
+      "requiredDocuments": [
+        "Financial Records",
+        "Bank Statements",
+        "Business Proof"
+      ],
+      "timePeriod": "Monthly",
+      "consultancyFee": "5000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": ""
+    },
+    {
+      "id": 30,
+      "serviceName": "Book Keeping Services",
+      "requiredDocuments": ["Invoices", "Bank Statements", "Expense Records"],
+      "timePeriod": "Monthly",
+      "consultancyFee": "4000",
+      "isNeedAuthorizedCapital": false,
+      "governmentFee": ""
+    }
+  ]
+}
