@@ -1,449 +1,367 @@
 {
+  "users": [
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$u5a2DlJDiNBE4dROc7mXwu.V5YyTJdbCXKYxHvDKiPF5J7tkNs.kO",
+      "organizationName": "test",
+      "personName": "test",
+      "phoneNumber": "01929754898",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "email": "testuser@gmail.com",
+      "password": "$2a$10$v1V6rUBTENp9QKHY3dy10eJqS2UrYlgJYQk3BisKPFvEt50OFh6o2",
+      "organizationName": "JK Associates",
+      "personName": "Kawser",
+      "phoneNumber": "01929754898",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "email": "hasan@tes.com",
+      "password": "$2a$10$hJoYihrUSmtfyIyi2PA9SuwCoQsTM0gsykPcEaph.uCFKMtAb.p3W",
+      "organizationName": "Test Company",
+      "personName": "Hasan Mahmud",
+      "phoneNumber": "+1 (805) 203-4947",
+      "role": "user",
+      "id": 3
+    }
+  ],
   "serviceDDL": [
     {
-      "value": 4,
-      "label": "Company Formation"
+      "id": 1,
+      "value": 1,
+      "label": "test service"
     },
     {
-      "value": 5,
-      "label": "Society Registration"
+      "id": 2,
+      "value": 2,
+      "label": "ট্রেড লাইসেন্স (প্রোপাইটারশীপ)"
     },
     {
-      "value": 6,
-      "label": "Partnership Registration"
-    },
-    {
-      "value": 7,
-      "label": "RJSC Return Filling"
-    },
-    {
-      "value": 8,
-      "label": "Loan Consultancy"
-    },
-    {
-      "value": 9,
-      "label": "Import License (IRC)"
-    },
-    {
-      "value": 10,
-      "label": "Export License (ERC)"
-    },
-    {
-      "value": 11,
-      "label": "BSTI Registration"
-    },
-    {
-      "value": 12,
-      "label": "Trade License"
-    },
-    {
-      "value": 13,
-      "label": "Individual TAX"
-    },
-    {
-      "value": 14,
-      "label": "Corporate TAX"
-    },
-    {
-      "value": 15,
-      "label": "Value Added TAX (VAT)"
-    },
-    {
-      "value": 16,
-      "label": "TIN Registration"
-    },
-    {
-      "value": 17,
-      "label": "BIN Registration"
-    },
-    {
-      "value": 18,
-      "label": "Trademark"
-    },
-    {
-      "value": 19,
-      "label": "Copyright"
-    },
-    {
-      "value": 20,
-      "label": "Patent"
-    },
-    {
-      "value": 21,
-      "label": "Industrial Design"
-    },
-    {
-      "value": 22,
-      "label": "IPR Enforcement"
-    },
-    {
-      "value": 23,
-      "label": "BTCL Domain Registration"
-    },
-    {
-      "value": 24,
-      "label": "Foreign Company Formation"
-    },
-    {
-      "value": 25,
-      "label": "Foreign Direct Investment"
-    },
-    {
-      "value": 26,
-      "label": "BIDA Permission"
-    },
-    {
-      "value": 27,
-      "label": "Work Permit VISA"
-    },
-    {
-      "value": 28,
-      "label": "Foreign Delegates"
-    },
-    {
-      "value": 29,
-      "label": "Account Service"
-    },
-    {
-      "value": 30,
-      "label": "Book Keeping Services"
-    },
-    {
-      "value": 31,
-      "label": "Small Business"
+      "id": 3,
+      "value": 3,
+      "label": "Company Registration"
     }
   ],
   "services": [
     {
-      "id": 4,
-      "serviceName": "Company Formation",
+      "serviceName": "test service",
       "requiredDocuments": [
-        "Certificate of Incorporation",
-        "Memorandum of Association",
-        "Shareholder Information"
+        "rd-1",
+        "rd-2"
       ],
-      "timePeriod": "3-5",
-      "consultancyFee": "10000",
+      "providedDocs": [
+        "pf-1",
+        "pf-2"
+      ],
+      "description": "sdfg",
+      "note": "dsd",
+      "timePeriod": "3",
+      "consultancyFeeLocal": "23",
+      "consultancyFeeForeign": "22",
       "isNeedAuthorizedCapital": true,
-      "governmentFee": "20000"
+      "isNeedPaidUp": false,
+      "governmentFee": "",
+      "id": 1
     },
     {
-      "id": 5,
-      "serviceName": "Society Registration",
+      "serviceName": "ট্রেড লাইসেন্স (প্রোপাইটারশীপ)",
       "requiredDocuments": [
-        "Member List",
-        "Society Constitution",
-        "Address Proof"
+        "এনআইডি",
+        "বাবা মা এর এনআইডি",
+        "ব্যবসা প্রতিষ্ঠানের ঠিকানা ",
+        "ব্যবসা প্রতিষ্ঠানের নাম "
       ],
+      "providedDocs": [
+        "ট্রেড লাইসেন্স"
+      ],
+      "description": "dfafsafsfsf",
+      "note": "dsfafsf",
+      "timePeriod": "2-3",
+      "consultancyFeeLocal": "79009",
+      "consultancyFeeForeign": "98765",
+      "isNeedAuthorizedCapital": false,
+      "isNeedPaidUp": true,
+      "governmentFee": "",
+      "id": 2,
+      "isNeedCategory": true
+    },
+    {
+      "serviceName": "Company Registration",
+      "requiredDocuments": [
+        "NID",
+        "Tin",
+        "Phone Number",
+        "Email Address",
+        "Registard Address",
+        "Present Address"
+      ],
+      "providedDocs": [
+        "Incorporation Certificates",
+        "MOA & AOA",
+        "Form 12"
+      ],
+      "description": "sdfgdfssdf",
+      "note": "adg",
       "timePeriod": "5-7",
-      "consultancyFee": "8000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": "5000"
-    },
-    {
-      "id": 6,
-      "serviceName": "Partnership Registration",
-      "requiredDocuments": [
-        "Partnership Agreement",
-        "ID Proof",
-        "Address Proof"
-      ],
-      "timePeriod": "2-4",
-      "consultancyFee": "6000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": "3000"
-    },
-    {
-      "id": 7,
-      "serviceName": "RJSC Return Filling",
-      "requiredDocuments": [
-        "Annual Return Forms",
-        "Financial Statements",
-        "Audit Reports"
-      ],
-      "timePeriod": "7-10",
-      "consultancyFee": "7000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": "1500"
-    },
-    {
-      "id": 8,
-      "serviceName": "Loan Consultancy",
-      "requiredDocuments": [
-        "Business Plan",
-        "Bank Statements",
-        "Collateral Documents"
-      ],
-      "timePeriod": "10-15",
-      "consultancyFee": "12000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": "80000"
-    },
-    {
-      "id": 9,
-      "serviceName": "Import License (IRC)",
-      "requiredDocuments": [
-        "TIN Certificate",
-        "Trade License",
-        "Bank Solvency Certificate"
-      ],
-      "timePeriod": "3-5",
-      "consultancyFee": "15000",
+      "consultancyFeeLocal": "16000",
+      "consultancyFeeForeign": "21000",
       "isNeedAuthorizedCapital": true,
-      "governmentFee": "10000"
-    },
+      "isNeedPaidUp": false,
+      "governmentFee": "",
+      "isNeedCategory": false,
+      "id": 3
+    }
+  ],
+  "requestedService": [
     {
-      "id": 10,
-      "serviceName": "Export License (ERC)",
-      "requiredDocuments": [
-        "TIN Certificate",
-        "Trade License",
-        "Export Agreement"
+      "services": [
+        {
+          "serviceId": 1,
+          "serviceName": "test service",
+          "timePeriod": "3",
+          "consultancyFee": 23,
+          "govtFee": 1000,
+          "requiredDocuments": [
+            "rd-1",
+            "rd-2"
+          ],
+          "providedDocs": [
+            "pf-1",
+            "pf-2"
+          ],
+          "isNeedAuthorizedCapital": true,
+          "isNeedPaidUp": false,
+          "authorizedCapital": "100000",
+          "paidUpAmount": "",
+          "businessCategory": ""
+        },
+        {
+          "serviceId": 2,
+          "serviceName": "ট্রেড লাইসেন্স (প্রোপাইটারশীপ)",
+          "timePeriod": "2-3",
+          "consultancyFee": 79009,
+          "govtFee": 0,
+          "requiredDocuments": [
+            "এনআইডি",
+            "বাবা মা এর এনআইডি",
+            "ব্যবসা প্রতিষ্ঠানের ঠিকানা ",
+            "ব্যবসা প্রতিষ্ঠানের নাম "
+          ],
+          "providedDocs": [
+            "ট্রেড লাইসেন্স"
+          ],
+          "isNeedAuthorizedCapital": false,
+          "isNeedPaidUp": true,
+          "isNeedCategory": true,
+          "authorizedCapital": "",
+          "paidUpAmount": "10000",
+          "businessCategory": "It Consultant"
+        }
       ],
-      "timePeriod": "3-5",
-      "consultancyFee": "15000",
-      "isNeedAuthorizedCapital": true,
-      "governmentFee": "8000"
-    },
-    {
-      "id": 11,
-      "serviceName": "BSTI Registration",
-      "requiredDocuments": ["Test Reports", "Product Samples", "Trade License"],
-      "timePeriod": "15-20",
-      "consultancyFee": "25000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": "20000"
-    },
-    {
-      "id": 12,
-      "serviceName": "Trade License",
       "requiredDocuments": [
-        "Application Form",
-        "Owner's ID",
-        "Rental Agreement"
+        {
+          "servicesId": [
+            1
+          ],
+          "label": "rd-1"
+        },
+        {
+          "servicesId": [
+            1
+          ],
+          "label": "rd-2"
+        },
+        {
+          "servicesId": [
+            2
+          ],
+          "label": "এনআইডি"
+        },
+        {
+          "servicesId": [
+            2
+          ],
+          "label": "বাবা মা এর এনআইডি"
+        },
+        {
+          "servicesId": [
+            2
+          ],
+          "label": "ব্যবসা প্রতিষ্ঠানের ঠিকানা "
+        },
+        {
+          "servicesId": [
+            2
+          ],
+          "label": "ব্যবসা প্রতিষ্ঠানের নাম "
+        }
       ],
-      "timePeriod": "3-7",
-      "consultancyFee": "5000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": "1000"
-    },
+      "providedDocs": [
+        {
+          "servicesId": [
+            1
+          ],
+          "label": "pf-1"
+        },
+        {
+          "servicesId": [
+            1
+          ],
+          "label": "pf-2"
+        },
+        {
+          "servicesId": [
+            2
+          ],
+          "label": "ট্রেড লাইসেন্স"
+        }
+      ],
+      "totalGovernmentFee": 1000,
+      "totalConsultancyFee": 79032,
+      "userId": 2,
+      "userEmail": "testuser@gmail.com",
+      "userName": "Kawser",
+      "userPhoneNumber": "01929754898",
+      "orgName": "JK Associates",
+      "isQuotation": "fulfilled",
+      "requestedDate": "18-12-2024",
+      "id": 1
+    }
+  ],
+  "quotations": [
     {
-      "id": 13,
-      "serviceName": "Individual TAX",
-      "requiredDocuments": ["Tax Return Forms", "Income Proof", "ID Proof"],
-      "timePeriod": "2-5",
-      "consultancyFee": "4000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": ""
-    },
-    {
-      "id": 14,
-      "serviceName": "Corporate TAX",
+      "services": [
+        {
+          "serviceId": 2,
+          "serviceName": "ট্রেড লাইসেন্স (প্রোপাইটারশীপ)",
+          "timePeriod": "2-3",
+          "consultancyFee": 4000,
+          "govtFee": 7000,
+          "isNeedAuthorizedCapital": false,
+          "authorizedCapital": "",
+          "isNeedPaidUp": true,
+          "paidUpAmount": "600000",
+          "isNeedCategory": true,
+          "businessCategory": "It Consultant"
+        },
+        {
+          "serviceId": 3,
+          "serviceName": "Company Registration",
+          "timePeriod": "5-7",
+          "consultancyFee": 3000,
+          "govtFee": 9000,
+          "isNeedAuthorizedCapital": true,
+          "authorizedCapital": "100000",
+          "isNeedPaidUp": "",
+          "paidUpAmount": "",
+          "isNeedCategory": "",
+          "businessCategory": ""
+        }
+      ],
       "requiredDocuments": [
-        "Tax Return Forms",
-        "Financial Statements",
-        "Business Proof"
+        {
+          "servicesId": [
+            2
+          ],
+          "label": "এনআইডি"
+        },
+        {
+          "servicesId": [
+            2
+          ],
+          "label": "বাবা মা এর এনআইডি"
+        },
+        {
+          "servicesId": [
+            2
+          ],
+          "label": "ব্যবসা প্রতিষ্ঠানের ঠিকানা "
+        },
+        {
+          "servicesId": [
+            2
+          ],
+          "label": "ব্যবসা প্রতিষ্ঠানের নাম "
+        },
+        {
+          "servicesId": [
+            3
+          ],
+          "label": "NID"
+        },
+        {
+          "servicesId": [
+            3
+          ],
+          "label": "Tin"
+        },
+        {
+          "servicesId": [
+            3
+          ],
+          "label": "Phone Number"
+        },
+        {
+          "servicesId": [
+            3
+          ],
+          "label": "Email Address"
+        },
+        {
+          "servicesId": [
+            3
+          ],
+          "label": "Registard Address"
+        },
+        {
+          "servicesId": [
+            3
+          ],
+          "label": "Present Address"
+        }
       ],
-      "timePeriod": "5-10",
-      "consultancyFee": "7000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": ""
-    },
+      "totalGovernmentFee": 16000,
+      "totalConsultancyFee": 7000,
+      "serviceId": null,
+      "userId": null,
+      "userName": "Mahabub Mondol",
+      "userEmail": "mahabub@gmail.com",
+      "orgName": "Bismillah Enterprise",
+      "phoneNumber": "01929754898",
+      "address": "",
+      "requestedDate": null,
+      "quotationDate": "24-12-2024",
+      "madeBy": "test@gmail.com",
+      "quotationStatus": "fulfilled",
+      "id": 1,
+      "dueAmount": 8000,
+      "payableAmount": "15000"
+    }
+  ],
+  "orders": [
     {
-      "id": 15,
-      "serviceName": "Value Added TAX (VAT)",
-      "requiredDocuments": [
-        "TIN Certificate",
-        "Business Registration",
-        "Financial Statements"
+      "quotationId": 1,
+      "invoiceNumber": "JKA-2024122498",
+      "totalAmount": 23000,
+      "advanceAmount": 15000,
+      "dueAmount": 8000,
+      "paymentMethod": "handcash",
+      "transactionNumber": "",
+      "paymentReceiveInfo": [
+        {
+          "paymentDate": "24-12-2024",
+          "paymentReceiveBy": "test"
+        }
       ],
-      "timePeriod": "3-5",
-      "consultancyFee": "8000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": "2000"
-    },
-    {
-      "id": 16,
-      "serviceName": "TIN Registration",
-      "requiredDocuments": [
-        "ID Proof",
-        "Address Proof",
-        "Passport Size Photos"
-      ],
-      "timePeriod": "1-2",
-      "consultancyFee": "2000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": ""
-    },
-    {
-      "id": 17,
-      "serviceName": "BIN Registration",
-      "requiredDocuments": [
-        "Business Proof",
-        "Trade License",
-        "TIN Certificate"
-      ],
-      "timePeriod": "3-5",
-      "consultancyFee": "5000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": "3000"
-    },
-    {
-      "id": 18,
-      "serviceName": "Trademark",
-      "requiredDocuments": [
-        "Trademark Application",
-        "Business Proof",
-        "Sample Logos"
-      ],
-      "timePeriod": "30-45",
-      "consultancyFee": "20000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": "6000"
-    },
-    {
-      "id": 19,
-      "serviceName": "Copyright",
-      "requiredDocuments": ["Application Form", "Work Proof", "ID Proof"],
-      "timePeriod": "20-30",
-      "consultancyFee": "15000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": "5000"
-    },
-    {
-      "id": 20,
-      "serviceName": "Patent",
-      "requiredDocuments": [
-        "Patent Specification",
-        "Drawings",
-        "Inventor's Proof"
-      ],
-      "timePeriod": "180-365",
-      "consultancyFee": "50000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": "20000"
-    },
-    {
-      "id": 21,
-      "serviceName": "Industrial Design",
-      "requiredDocuments": [
-        "Design Drawings",
-        "Application Form",
-        "Owner's Proof"
-      ],
-      "timePeriod": "60-90",
-      "consultancyFee": "30000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": "10000"
-    },
-    {
-      "id": 22,
-      "serviceName": "IPR Enforcement",
-      "requiredDocuments": [
-        "Legal Documents",
-        "Trademark Registration",
-        "Proof of Infringement"
-      ],
-      "timePeriod": "15-30",
-      "consultancyFee": "25000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": ""
-    },
-    {
-      "id": 23,
-      "serviceName": "BTCL Domain Registration",
-      "requiredDocuments": [
-        "Domain Request Letter",
-        "Business Proof",
-        "ID Proof"
-      ],
-      "timePeriod": "3-7",
-      "consultancyFee": "3000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": "1500"
-    },
-    {
-      "id": 24,
-      "serviceName": "Foreign Company Formation",
-      "requiredDocuments": [
-        "Incorporation Certificate",
-        "Board Resolution",
-        "Authorized Representative"
-      ],
-      "timePeriod": "30-60",
-      "consultancyFee": "50000",
-      "isNeedAuthorizedCapital": true,
-      "governmentFee": "30000"
-    },
-    {
-      "id": 25,
-      "serviceName": "Foreign Direct Investment",
-      "requiredDocuments": [
-        "Investment Agreement",
-        "Bank Proof",
-        "Government Approval"
-      ],
-      "timePeriod": "15-30",
-      "consultancyFee": "60000",
-      "isNeedAuthorizedCapital": true,
-      "governmentFee": "50000"
-    },
-    {
-      "id": 26,
-      "serviceName": "BIDA Permission",
-      "requiredDocuments": [
-        "Application Form",
-        "Business Proof",
-        "Foreign Representative Details"
-      ],
-      "timePeriod": "15-20",
-      "consultancyFee": "20000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": "10000"
-    },
-    {
-      "id": 27,
-      "serviceName": "Work Permit VISA",
-      "requiredDocuments": ["Application Form", "Job Offer Letter", "ID Proof"],
-      "timePeriod": "7-15",
-      "consultancyFee": "15000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": "5000"
-    },
-    {
-      "id": 28,
-      "serviceName": "Foreign Delegates",
-      "requiredDocuments": [
-        "Invitation Letter",
-        "ID Proof",
-        "Travel Itinerary"
-      ],
-      "timePeriod": "3-5",
-      "consultancyFee": "20000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": ""
-    },
-    {
-      "id": 29,
-      "serviceName": "Account Service",
-      "requiredDocuments": [
-        "Financial Records",
-        "Bank Statements",
-        "Business Proof"
-      ],
-      "timePeriod": "Monthly",
-      "consultancyFee": "5000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": ""
-    },
-    {
-      "id": 30,
-      "serviceName": "Book Keeping Services",
-      "requiredDocuments": ["Invoices", "Bank Statements", "Expense Records"],
-      "timePeriod": "Monthly",
-      "consultancyFee": "4000",
-      "isNeedAuthorizedCapital": false,
-      "governmentFee": ""
+      "orgName": "Bismillah Enterprise",
+      "userEmail": "mahabub@gmail.com",
+      "phoneNumber": "01929754898",
+      "orderStatus": "onProgress",
+      "ordDate": "24-12-2024",
+      "id": 1
     }
   ]
 }
