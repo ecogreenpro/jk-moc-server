@@ -1,38 +1,35 @@
 {
   "users": [
     {
-      "email": "test@gmail.com",
-      "password": "$2a$10$u5a2DlJDiNBE4dROc7mXwu.V5YyTJdbCXKYxHvDKiPF5J7tkNs.kO",
-      "organizationName": "test",
-      "personName": "test",
-      "phoneNumber": "01929754898",
+      "email": "nabil.jkassociates@gmail.com",
+      "password": "$2a$10$sViA146xTFQgkl2a4m.4TOnrfV6M1JCw6aRPw7YDf5mwTIaDvyFhi",
+      "organizationName": "JK Associates",
+      "personName": "Nabil Rahman ",
+      "phoneNumber": "+880 1782-509889",
       "role": "admin",
       "id": 1
     },
     {
-      "email": "testuser@gmail.com",
-      "password": "$2a$10$v1V6rUBTENp9QKHY3dy10eJqS2UrYlgJYQk3BisKPFvEt50OFh6o2",
+      "email": "hasnat.charteredskills@gmail.com",
+      "password": "$2a$10$YT2GsfdczqYHITB2ANabp.hK4Gbj9xHTD8HeJuzwxpFTMljeOWDyC",
       "organizationName": "JK Associates",
-      "personName": "Kawser",
-      "phoneNumber": "01929754898",
-      "role": "user",
+      "personName": "Arif Hasnat ",
+      "phoneNumber": "+880 1312-544462",
+      "role": "admin",
       "id": 2
     },
     {
-      "email": "hasan@tes.com",
-      "password": "$2a$10$hJoYihrUSmtfyIyi2PA9SuwCoQsTM0gsykPcEaph.uCFKMtAb.p3W",
-      "organizationName": "Test Company",
-      "personName": "Hasan Mahmud",
-      "phoneNumber": "+1 (805) 203-4947",
-      "role": "user",
+      "email": "jkowser676@gmail.com",
+      "password": "$2a$10$c/04hKvQIKIvsIfS.lw5peMpzFLlpSF4RkBIM/UmaXkvdi4ykYrYe",
+      "organizationName": "JK Associates",
+      "personName": "Jakaria Kawsar",
+      "phoneNumber": "+880 1873-404971",
+      "role": "admin",
       "id": 3
     }
   ],
-  "serviceDDL": [
-   
-  ],
-  "services": [
-  ],
+  "serviceDDL": [],
+  "services": [],
   "requestedService": [],
   "quotations": [],
   "orders": []
